@@ -2,11 +2,11 @@
 
 ## About
 ### Intro
-This project will start by following Sentdex YouTube tutorial's on Go programming, beginning with [part 1](https://www.youtube.com/watch?v=G3PvTWRIhZA&vl=en).
+This project will start by following Sentdex YouTube tutorial's on Go programming, beginning with [part 1](https://www.youtube.com/watch?v=G3PvTWRIhZA&vl=en). Eventually this project will extend beyond these tutorials into its own, unique thing.
 
 Sentdex tutorials are led by Harrison Kinsley. Harrison Kinsley's tutorials were a fantastic reference for me to learn Python, and so far Go is no different!
 
-If I'm going to **Go**, I will be having fun with some puns. Check out [these sweet songs](https://www.ranker.com/list/the-best-songs-with-go-in-the-title/ranker-music) to **Go** listen to!
+If I'm going to **Go**, I will be having fun with some puns. Check out [these great songs](https://www.ranker.com/list/the-best-songs-with-go-in-the-title/ranker-music) to **Go** listen to!
 
 Who sings the song this project is named after?
 Hint: it's in [this list](https://www.ranker.com/list/the-best-songs-with-go-in-the-title/ranker-music).
@@ -27,4 +27,4 @@ Like C++ and Java, Go is a compiled language. This means that it is directly tra
 ## Getting Started
 Check out [Go](https://golang.org/) and [download it](https://golang.org/dl/).
 
-To run & compile: `$ go run gotut.go`
+To run & compile: `$ go run file.go`, where file is replaced by the file you want to run, such as `youtube_notes/go_note_1.go`
