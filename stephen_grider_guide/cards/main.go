@@ -1,15 +1,9 @@
 package main
 
-import "fmt"
-
 func main() {
 	cards := deck{"Ace of Diamonds", newCard()} // a slice of type string
 
-	// take the slice of cards & loop over it
-	for i, card := range cards { // range is a keyword for iterating over every element in an array
-		fmt.Println(i, card)
-	}
-
+	cards.print()
 }
 
 func newCard() string { // must declare what type will be returned by function
@@ -76,13 +70,13 @@ func newCard() string { // must declare what type will be returned by function
 // ---- **Notes: OO approach vs Go approuch** ----
 // Go is not an object oriented language (no idea of classes within Go)
 // However, can draw some of that object oriented approach over to Go
-
+//
 // OO approach:
 // Use Deck Class to create a Deck instance.
 // A deck instance might have a property called cards (which could be an array of strings).
 // Could then have functions attached to the Deck instance (functions like print, shuffle, & saveToFile).
 // Could then use these functions to manipulate that list of cards that are attached to the Deck instance.
-
+//
 // Go approach:
 // To create the idea of a Deck inside of our Go program, we define a new type inside of Go (a Deck type).
 // We want to extend a base data type & add extra functionality to it.
